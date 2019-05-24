@@ -9,6 +9,9 @@
     <div th:each="actor : ${actors}">
         <div th:if="${actor.headshot} != null">
             <img th:src="${actor.headshot}"/>
+
+
+
             <hr/>
         </div>
         <h3 th:text="${actor.name}"></h3>
